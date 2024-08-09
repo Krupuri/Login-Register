@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form action="">
+                <h1>สร้างบัญชีใหม่</h1>
+                <div class="social-icons">
+                    <a href="#" class="icons"> <i class='bx bxl-facebook'></i> </a>
+                    <a href="#" class="icons"> <i class='bx bxl-google'></i> </a>
+                    <a href="#" class="icons"> <i class='bx bxl-instagram-alt' ></i> </a>
+                    <a href="#" class="icons"> <i class='bx bxl-tiktok' ></i> </a> 
+                </div>
+                <span>สมัครบัญชีโดยใช้อีเมล์</span>
+                <input type="text" placeholder="ชื่อผู้ใช้งาน">
+                <input type="email" placeholder="กรอกอีเมล์">
+                <input type="password" placeholder="กรอกรหัสผ่าน">
+                <button>สมัครใช้งาน</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-in">
+            <form action="">
+                <h1>ลงชื่อเข้าใช้งาน</h1>
+                <div class="social-icons">
+                    <a href="#" class="icons"> <i class='bx bxl-facebook'></i> </a>
+                    <a href="#" class="icons"> <i class='bx bxl-google'></i> </a>
+                    <a href="#" class="icons"> <i class='bx bxl-instagram-alt' ></i> </a>
+                    <a href="#" class="icons"> <i class='bx bxl-tiktok' ></i> </a> 
+                </div>
+                <span>ล็อกอินโดยใช้อีเมล์และรหัสผ่าน</span>
+                <input type="email" placeholder="กรอกอีเมล์">
+                <input type="password" placeholder="กรอกรหัสผ่าน">
+                <a href="">ลืมรหัสผ่าน</a>
+                <button>เข้าสู่ระบบ</button>
+            </form>
+        </div>
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>ยินดีต้อนรับเข้าสู่<br>เว็บเทคโนโลยีคอมพิวเตอร์</h1>
+                    <p>เข้าสู่ระบบโดยใช้อีเมล์และรหัสผ่าน</p>
+                    <button class="hidden" id="login">เข้าสู่ระบบ</button>
+                </div>
+
+                <div class="toggle-panel toggle-right">
+                    <h1>สมัครสมาชิก</h1>
+                    <p>เข้าร่วมเว็บเทคโนโลยีคอมพิวเตอร์</p>
+                    <button class="hidden" id="register">สมัครใช้งาน</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
